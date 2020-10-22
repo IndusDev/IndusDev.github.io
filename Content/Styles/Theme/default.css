@@ -1,0 +1,201 @@
+#section0 {
+  height: 100vh;
+  background: #00b9ae;
+}
+
+#section1 {
+  height: 100vh;
+  background: #6699cc;
+}
+
+#section2 {
+  height: 100vh;
+  background: #ff8c42;
+}
+
+#section3 {
+  height: 100vh;
+  background: #efefef;
+}
+
+#section4 {
+  height: 100vh;
+  background: #a23e48;
+}
+
+#section5 {
+  height: 100vh;
+  background: #ffe738;
+}
+
+
+[attr="section_header"] {
+	background: #7E00BF;
+    height: 10vh;
+}
+
+[attr="section_individual_highlights"] {
+
+}
+
+[attr="about_section"] {
+	
+}
+
+[attr="discography_section"] {
+		
+}
+
+[attr="recent_section"] {
+	
+}
+
+[attr="sitemap_section"] {
+	
+}
+
+[attr="brand_logo"] g {
+	fill: #fff;
+}
+
+[attr="link"] {
+	color: #fff;
+}
+
+[attr="profile_image"] {
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+
+[attr="brand_background"] {
+    background: #CE0645;
+    transform: scaleY(1.5) scaleX(1.5) translateY(10px);
+    z-index: 100;
+}
+
+[attr="title"] {
+	
+}
+
+[attr="member_caption_name"] {
+	
+}
+
+[attr="member_caption_position"] {
+	
+}
+
+[attr="member_caption_dob"] {
+	
+}
+
+[attr="member_caption_about"] {
+	
+}
+
+[attr="member_caption_facts"] {
+
+}
+
+[attr="member_fact_list"] {
+
+}
+
+
+/*
+	Scrollbar Changes: start
+*/
+
+*::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+	border: 2px solid #555555;
+}
+
+/*
+	Scrollbar Changes: end
+*/
+
+
+/*
+	Timeline Changes: start
+*/
+
+div#myTimeline {
+    width: 99.4vw;
+    padding-top: 10vh;
+    overflow: scroll;
+}
+
+section#timeline article div.panel {
+	font-size: 1rem;
+}
+
+section#timeline article div.panel:after {
+	background: #EF693A !important;
+}
+
+/*
+	Bad practice to use !important
+*/
+section#timeline article div.panel .badge {
+	border-radius: unset !important; 
+    padding: 10px !important;
+    margin: 0 0 0 -25px !important;
+    bottom: -45px !important;
+    left: 45% !important;
+    width: fit-content !important; 
+}
+
+section#timeline article div.panel .panel-heading {
+
+}
+
+section#timeline article div.panel .panel-title {
+
+}
+
+section#timeline article div.panel .panel-body {
+
+}
+
+section#timeline article div.panel .panel-body h1 {
+    color: #000;
+    font-size: 1.2rem;
+}
+}
+
+/* getting overridden in Styles/Home/home.css change there search for same selector */
+section#timeline article div.panel .panel-body img {
+    width: 50%;
+}
+
+section#timeline article div.panel .panel-body p {
+	color: #000;
+    font-size: 0.7rem;
+}
+
+section#timeline article div.panel .panel-footer {
+	color: #efe;
+}
+
+section#timeline article div.panel .panel-footer a {
+	color: #000;
+	font-size: 0.8rem;
+}
+
+/*
+	Timeline Change: end
+*/
