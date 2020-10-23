@@ -13,6 +13,24 @@ $(document).ready(function(){
 
 	$('#myTimeline').albeTimeline(data, {
 		effect: "zoomIn",
-		showMenu: false
+		showMenu: true
 	});
+
+	// $('#timeline-menu li a').on('click', () => {
+	// 	console.log($(this).data);
+	// 	//$("#myTimeline").scrollLeft($(e.attr('data-scroll')).position().left);
+	// })
+
+	$('#timeline-menu li a').each(function () {
+	    var $this = $(this);
+	    $this.on("click", function () {
+	        $("#myTimeline").scrollLeft($($(this).data('scroll')).position().left);
+	    });
+	});
+
 });
+
+
+
+
+//$("#myTimeline").scrollLeft($('#y2020').position().left);

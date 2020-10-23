@@ -12,6 +12,7 @@
 * {
 	box-sizing: border-box;
 	font-family: 'Nunito', sans-serif;
+    font-size: 0.9rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -166,8 +167,11 @@ section#timeline article div.panel .panel-body img {
     position: absolute;
     top: 50vh;
     bottom: 0;
-    left: 96vw;
+    left: 96.4vw;
     display: block;
+    height: fit-content;
+    padding: 10px;
+    width: max-content;
 }
 
 .indvidual-glider .glider-slide {
@@ -226,6 +230,11 @@ h4.member-caption-about {
 	Individual members: end
 */
 
+
+/*
+    Discography: start;
+*/
+
 .discography-section > h1 {
     position: absolute;	
 	left: 700px;
@@ -239,3 +248,35 @@ h4.member-caption-about {
     overflow: scroll;
     height: 730px !important;
 }
+/*
+    Discography: end;
+*/
+
+
+
+
+/*
+    Section about: start;
+*/
+
+/*
+    Section about: end;
+*/
+
+.timeline-Widget {
+    max-width: 100vw;
+    background-color: #fff;
+    border-radius: 5px;
+    max-height: 98vh;
+    overflow: scroll;
+}
+
+ul#timeline-menu {
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+}
+    ul#timeline-menu li {position: relative;float: left;list-style: none;margin: 0px;padding: 0px;}
+        ul#timeline-menu li a {display: block;text-decoration: none;font-size: 16px;padding: 10px;padding-top: 20px;color: black;font-weight: bold;border-bottom: 5px solid transparent;}
+            ul#timeline-menu li a:hover { color: #EF693A; border-bottom: 5px solid #EF693A; font-weight: normal; }
